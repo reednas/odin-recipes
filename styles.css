@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: lightgreen;
+    text-align: left;
+    }
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    margin-left: auto;
+    margin-right: auto;
+}
+p,
+h1,
+h2,ul,li, ol {
+    font-family: Helvetica;
+    color: black;
+    display: block;
+    padding: 3px;
+    text-align: left;
+}
+
+.title {
+    display: block;
+    color:purple;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.image, img {
+    width:320px; 
+    height:300px;
+    border: 4px solid blue;
+    background: skyblue;
+}
+button {
+    width: 250px;
+    height: 45px;
+    border: 4px solid blueviolet;
+    background-color: skyblue;
+    display: block;
+  }
+
+  button:hover {
+    padding-right: 25px;
+    background-color: greenyellow;
+  }
